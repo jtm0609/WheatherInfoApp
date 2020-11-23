@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재시간: "
+        android:textSize="20sp"
+        />
+
+        <TextView
+            android:layout_margin="30dp"
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hi"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재 X좌표: "
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_margin="30dp"
+            android:id="@+id/location_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hi"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재 y좌표: "
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_margin="30dp"
+            android:id="@+id/location_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hi"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
